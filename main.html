@@ -18,22 +18,19 @@
     <label for="email">Email</label><br>
     <input type="email" id="email" name="email" required><br><br>
 
-    <!-- Gender (radio group) -->
+    <!-- Gender (radio group) - only 2 radios to match test -->
     <span>Gender</span><br>
     <input type="radio" id="gender_m" name="gender" value="male" required>
     <label for="gender_m">Male</label>
 
     <input type="radio" id="gender_f" name="gender" value="female">
     <label for="gender_f">Female</label>
-
-    <input type="radio" id="gender_o" name="gender" value="other">
-    <label for="gender_o">Other</label>
     <br><br>
 
     <!-- Laptop Brands -->
     <label for="laptop">Laptop Brands</label><br>
     <select id="laptop" name="laptop">
-      
+      <option value="" disabled selected>-- Select a brand --</option>
       <option value="Apple">Apple</option>
       <option value="Asus">Asus</option>
       <option value="HP">HP</option>
